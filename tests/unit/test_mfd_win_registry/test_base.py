@@ -229,9 +229,7 @@ class TestMfdWinRegistry:
             "PSDrive": "HKLM",
             "PSProvider": "Microsoft.PowerShell.Core\\Registry",
         },
-        (
-            "hklm:\\system\\CurrentControlSet\\control\\class\\{4D36E972-E325-11CE-BFC1-08002BE10318}\\0005\\Linkage"
-        ): {
+        ("hklm:\\system\\CurrentControlSet\\control\\class\\{4D36E972-E325-11CE-BFC1-08002BE10318}\\0005\\Linkage"): {
             "RootDevice": "{{81C379EE-5F3E-4BE8-B2CC-AF2D0023336D}}",
             "Export": "{\\Device\\{81C379EE-5F3E-4BE8-B2CC-AF2D0023336D}}",
             "UpperBind": "{lltdio, MsLldp, Ndisuio, RasPppoe}",
